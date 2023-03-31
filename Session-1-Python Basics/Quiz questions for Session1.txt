@@ -1,25 +1,26 @@
 1. Which of the following is used to define a block of code in Python language?
+Ans-a
 a) Indentation
 b) Key
 c) Brackets
 d) All of the mentioned
 
 2. Which file format does Jupyter Notebook use to store notebooks?
-
+Ans-a
 a) .ipynb
 b) .nb
 c) .jnb
 d) .py
 
 3. What is a cell in Jupyter Notebook?
-
+Ans-a
 a) A unit of code that can be executed
 b) A paragraph of narrative text
 c) A mathematical equation
 d) A visual representation of data
 
 4. Which is a valid Python code comment?
-
+Ans-d
 a)// comments make code easier to update
 
 b) [comment] comments can provide use instructions for other developers
@@ -32,17 +33,19 @@ d) # use comments to describe the function of code
 5. What is the output of the following code?
 var= "James Bond"
 print(var[2::-1])
+Ans-c
 a) Jam
 b) dno
 c) maJ
 d) dnoB semaJ
 
 6. What is the result of print(type([]) is list)
-
+Ans-b
 a) False
 b) True
 
 7. 10. What is the output of print(type({}) is set)
+Ans-a
 a) False
 b) True
 
@@ -51,7 +54,7 @@ sampleList = [10, 20, 30, 40, 50]
 sampleList.extend([60,70])
 sampleList.append([60,70])
 print(sampleList)
-
+Ans-a
 a)[10, 20, 30, 40, 50, 60, 70, [60, 70]]
 b)[10, 20, 30, 40, 50, [60, 70], [60, 70]]
 c)[10, 20, 30, 40, 50, [60, 70], 60, 70]
@@ -61,7 +64,7 @@ d)[10, 20, 30, 40, 50, 60, 70, 60, 70]
 aList = [4, 8, 12, 16]
 aList[1:4] = [20, 24, 28]
 print(aList)
-
+Ans-c
 a) [4, 20, 24, 28, 8, 12, 16]
 b) [4, [20, 24, 28], 8, 12, 16]
 c) [4,20,24,28]
@@ -70,7 +73,7 @@ d) [4,[20, 24, 28],[20, 24, 28],[20, 24, 28],8,12,16]
 10. What is the output of the code -   
 sampleSet = {"Yellow", "Orange", "Black"}
 print(sampleSet[1])
-
+Ans-d
 a) "Yellow"
 b)"Orange"
 c)"Black"
@@ -82,6 +85,7 @@ d)Error
 dict1 = {"key1":1, "key2":2}
 dict2 = {"key2":2, "key1":1}
 print(dict1 == dict2)
+Ans-b
 a) False
 b) True
 
@@ -92,6 +96,7 @@ student = {
   "class": 9,
   "marks": 75
 }
+Ans-b,d
 a) m = student.get(2)
 b) m = student.get('marks')
 c) m = student[2])
@@ -102,7 +107,7 @@ d) m = student['marks'])
 aTuple = (100, 200, 300, 400, 500)
 aTuple[1] = 800
 print(aTuple)
-
+Ans-a
 a) TypeError
 b) (100, 800, 200, 300, 400, 500)
 c) (800, 100, 200, 300, 400, 500)
@@ -112,14 +117,14 @@ d) (100, 200, 300, 400, 800)
 
 resList = [x+y for x in ['Hello ', 'Good '] for y in ['Dear', 'Bye']]
 print(resList)
-
+iAns-b
 a) ['Hello Good', 'Dear Bye', 'Bye Dear', 'Good Hello']
 b) [‘Hello Dear’, ‘Hello Bye’, ‘Good Dear’, ‘Good Bye’]
 c) [‘Hello Dear’, ‘Good Dear’, ‘Hello Bye’, ‘Good Bye’]
 d) Error
 
 15. What is the output of the following list function?
-
+Ans-c
 sampleList = [10, 20, 30, 40, 50]
 sampleList.pop()
 print(sampleList)
