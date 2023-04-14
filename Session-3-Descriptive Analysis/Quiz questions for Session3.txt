@@ -1,0 +1,103 @@
+1.
+Which function from the options given below will be used to read a macro enabled Excel workbook?
+Ans-b
+a) read_json
+b) read_excel
+c) read_xlsm
+d) read_csv
+
+ Answer the following from the following dataset df -
+
+ 
+	Name	Country	Age
+1	Tom	Norway	20
+2	nick	India	21
+3	krish	USA	19
+4	jack	Japan	18
+
+
+2. What would be the output of the following - 
+
+df['Country'][2]
+Ans-c
+a) Error
+b) USA
+c) India
+d) Norway
+
+3.  What would be the output of the following - 
+
+df.iloc[2, 'Country']
+Ans-a
+a) Error
+b) USA
+c) India
+d) Norway
+
+4.  What would be the output of the following - 
+
+df.iloc[1,2]
+Ans-b
+a) 19
+b) 21
+c) India
+d) USA
+
+5.  What would be the output of the following - 
+
+df.loc[1,'Name']
+Ans-a
+a) Tom
+b) nick
+c) krish
+d) jack
+
+6.  What would be the output of the following - 
+
+df.loc[1,2]
+ans-c
+a) 20
+b) 21
+c) Error
+d) India
+
+7) What is the correct syntax to change the name of the column "Age to Customer_Age" in a dataframe? Output should be like the attached dataframe.
+Ans-b,d
+a) df['Age'].rename('Customer_Age') 
+b) df.rename(columns = {'Age':'Customer_Age'}, inplace = True)
+c) df.rename(cols = {'Age':'Customer_Age'})
+d) df = df.rename(columns = {'Age':'Customer_Age'})
+
+8) What would be the output of this line of code - 
+print(df.iloc[5])
+Ans-c
+a) first five rows
+
+b) 0-4 rows
+
+c) only 6 th row
+
+d) only 5 th row
+
+9) df[empid] & df.empid are same?
+a) True
+b) False
+
+10) The instructor wants to add a new column, Marks to the dataframe. The values of the marks will be 12, 22, 21, 24. Help him to choose the correct command to do so.
+Ans-b
+a) Df.columns=[12, 22, 21, 24]
+
+b) df[‘marks’] = [12, 22, 21, 24]
+
+c) df.loc[marks] = [12, 22, 21, 24]
+
+d) Both (b) and (c) are correct
+
+11)  Which of the following statement will delete 1st row from the dataframe?
+Ans-c
+a) df.drop[0]
+b) df.drop(0)
+c) df.drop(1)
+d) df.drop[1]
+
+
